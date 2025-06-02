@@ -74,7 +74,7 @@ public void displayLosingMessage() {
 public void displayWinningMessage() {
   alive = false;
 
-  String msg = "woah you're so goated";
+  String msg = "woah u're so goated";
   for (int i = 0; i < msg.length(); i++) {
     if (i < NUM_COLS)
       buttons[0][i].setLabel("" + msg.charAt(i));
